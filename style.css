@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(239, 239, 37);
+    text-align: center;
+    padding-top: 30px;
+}
+#container{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 60%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: rgb(58, 58, 51);
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(195, 208, 4);
+    box-shadow: 10px 10px 10px hsla(68, 90%, 71%, 0.3);
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(124, 124, 2);
+    box-shadow: 3px 3px 3px hsl(63, 66%, 42%);
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(207, 207, 68);
+}
+button:active{
+    background-color: rgb(244, 244, 140);
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
